@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ercot-market-outlook"
+version = "1.0.0"
+description = "Hourly ERCOT price forecast and merchant asset valuation model (battery storage and solar)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "openpyxl>=3.1",
+  "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+ercot-outlook = "marketmodel.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
