@@ -1,4 +1,4 @@
-# Data Centers, Scarcity and Storage: ERCOT Market Outlook & Asset Valuation (2026–2045)
+# Data Centers, Scarcity and Storage: ERCOT market outlook & asset valuation (2026–2045)
 
 **Research question:** *How does data center load growth reshape ERCOT power prices and the relative value of battery storage versus solar?*
 
