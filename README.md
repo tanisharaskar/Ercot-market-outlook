@@ -97,9 +97,9 @@ CI (GitHub Actions) runs lint and tests, then runs the full study on Python 3.11
 - **Battery dispatch uses daily perfect foresight** with an 85% capture haircut. Unit commitment, start costs and ramp limits are simplified.
 - **Tax credits.** A 30% ITC is assumed for both assets. Eligibility under recent federal law changes and FEOC rules is a first-order diligence item; the tornado charts show it is the largest single value driver.
 
-## Relevance to the Leidos Energy Market Analyst role
+## Skills demonstrated
 
-| Role requirement | Where it shows up |
+| Skill | Where it shows up |
 |---|---|
 | Asset and portfolio market projections and valuation | 20-year hourly price forecast; BESS and solar NPV/IRR/break-even across scenarios |
 | Drafting Market Consultant's Reports | `outputs/ERCOT_Market_Consultant_Report.pdf`, structured for utilities, developers, lenders and ESCOs |
@@ -110,4 +110,4 @@ CI (GitHub Actions) runs lint and tests, then runs the full study on Python 3.11
 
 ---
 
-*Author: Tanisha Raskar. Built as an independent portfolio project; not affiliated with or endorsed by Leidos or ERCOT.*
+*Author: Tanisha Raskar. Built as an independent portfolio project; independent research study, not affiliated with or endorsed by ERCOT.*
