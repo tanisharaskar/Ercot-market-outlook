@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "ruff>=0.5"]
+dev = ["pytest>=8.0", "ruff==0.8.4"]
 
 [project.scripts]
 ercot-outlook = "marketmodel.pipeline:main"
@@ -32,3 +32,7 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 120
 target-version = "py310"
+
+[tool.ruff.lint]
+# Pinned rule set so a new ruff release cannot change what CI enforces.
+select = ["E4", "E7", "E9", "F", "W"]
